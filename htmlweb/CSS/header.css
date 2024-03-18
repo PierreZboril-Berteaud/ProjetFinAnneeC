@@ -1,0 +1,42 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: Avenir, sans-serif;
+}
+header{
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  background-color: #73141B;
+  padding-left: 42%;
+  background-image: url(../img/icons8-projecteur-de-film-100.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+li{
+  list-style-type: none;
+  padding: 8px;
+  border: solid;
+  border-radius: 10px;
+  margin: 10px;
+  margin-right: 60px;
+  
+  
+}
+a{
+  text-decoration: none;
+  color : #E1D6BA;
+  padding: 0;
+  margin: 0;
+}
+a:hover{
+  color: #E1D6BA;
+  scale: 1.1;
+}
+body{
+  background-color: #D5D5D5;
+}
+.img-header{
+  align-items: center;
+}

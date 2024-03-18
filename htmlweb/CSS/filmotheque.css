@@ -1,0 +1,232 @@
+body{
+    background-color: #D5D5D5;
+}
+#input1{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: solid 1px;
+    width: 17.5%;
+    text-decoration: none;
+    background-color: #e2e0e0;
+    margin: 20px;
+    border-radius: 0px 15px 15px 0px;
+    
+}
+#real:invalid{
+    color: red;
+    visibility: visible;
+}
+
+#time:invalid{
+    color: red;
+    visibility: visible;
+}
+
+#inter:invalid{
+    color: red;
+    visibility: visible;
+}
+
+#real:valid{
+    cursor: pointer;
+}
+
+#time:valid{
+    cursor: pointer;
+}
+
+#input2,
+#input5 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: solid 1px;
+    width: 17.5%;
+    text-decoration: none;
+    background-color: #e2e0e0;
+    margin: 20px;
+    border-radius: 0px 15px 15px 0px;
+}
+
+input{
+    border: none;
+    background-color: #e2e0e0;
+    height: 46px
+}
+
+input:focus {
+    outline:  none;
+}
+
+.icon{
+    padding-top: 5px;
+}
+
+#butTime{
+    height: 46px;
+    align-self: right;
+    border: none;
+    border-radius: 0px 15px 15px 0px;
+}
+
+#butInter{
+    height: 46px;
+    align-self: right;
+    border: none;
+    border-radius: 0px 15px 15px 0px;
+}
+
+#recherche{
+    display: flex;
+    justify-content:space-around;
+    margin-top: 20px;
+}
+
+#butName{
+    height: 46px;
+    align-self: right;
+    border: none;
+    border-radius: 0px 15px 15px 0px;
+}
+
+#butRealisateur{
+    margin-top: 13px;
+    width: 120%;
+    height: 70px;
+    background-color: white;
+    border: solid 1px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 4px;
+    
+}
+
+#butRealisateur:hover{
+    color: rgb(74, 74, 74);
+    scale: 1.2;
+    filter: invert(0.25);
+}
+
+#moviesFlex {
+    margin-left: 5%;
+    margin-top: 10%;
+    display: flex;  
+    flex-wrap: wrap;
+    row-gap: 2em;
+    justify-content: space-around;
+}
+
+#moviesFlexElement {
+    margin-top: 25px;
+    align-items: center;
+    flex: 1 0 20%;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    border-radius : 3px;
+}
+
+#movie {
+    border: solid;
+    padding: 10px;
+    background-color: white;
+    height: 400px;
+    width: auto;
+}
+#movie:hover {
+    animation-name: hoverMovie;
+    animation-fill-mode: forwards;
+    animation-duration: 1s;
+    /* box-shadow: #73141B 0px 0px 40px 0px;
+    scale: 1.25; */
+}
+
+#movies:not(:hover) {
+    animation-name: hoverMovie;
+    animation-fill-mode: backwards;
+    animation-duration: 1s;
+}
+
+@keyframes hoverMovie {
+    0% {scale: 1;
+    box-shadow: black 0px 0px 0px 0px;}
+    100% {scale: 1.25;
+    box-shadow: #73141B 0px 0px 40px 0px;}
+}
+
+#titre {
+    margin: 10px;
+    font-size: 40px;
+    font-weight: bold;
+    padding-bottom: 10px;
+    overflow:auto;
+}
+
+
+#realisateur {
+    margin-top: 50px;
+    font-size: 32px;
+}
+
+#titre,
+#realisateur,
+#duree,
+#genre {
+    margin-top: 25px;
+    text-align: center;
+
+}
+
+.titre-lie{
+    margin: 25px;
+    text-align: center;
+}
+#recherche-liee{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+
+}
+
+#real2,
+#time2,
+#title2,
+#genre2{
+    border: solid 1px;
+    border-radius: 3px;
+    margin: 10px;
+}
+
+#butRecherche{
+    border-radius : 3px;
+    width: 50px;
+}
+#butRecherche:hover{
+    scale: 1.25;
+    cursor: pointer;
+}
+#timer{
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 20px;;
+    padding-left : 20px;
+}
+
+
+#nbMovies{
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 20px;
+    padding-top : 10px;
+    padding-left : 20px;
+}
+
+#input3,
+#input4 {
+    padding-right: 50px;
+}

@@ -1,0 +1,50 @@
+#buttonCloseServer,
+#buttonAddMovie,
+#buttonDelMovie{
+    display: flex;
+    justify-content: center;
+}
+
+#butName{
+
+  background-color: #73141B;
+  border-radius: 10px;
+  border: 1px double #cccccc;
+  color: #E1D6BA;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 40px;
+}
+#butName:hover{
+    box-shadow: #73141B 0px 0px 40px 0px;
+    scale: 1.25;
+    background-color: #742a2f;
+    border-radius: 30px;
+}
+
+#moviesFlex {
+  display: flex;
+  flex-direction: column;
+}
+
+#movie {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+  flex-wrap: 1;
+  justify-content: space-between;
+}
+
+#titre,
+#realisateur,
+#duree,
+#genre {
+  /* margin: 50px; */
+}
